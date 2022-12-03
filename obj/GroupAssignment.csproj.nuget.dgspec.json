@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kate/dev/CSD412_Group5/GroupAssignment/GroupAssignment.csproj": {}
+    "/Users/kate/dev/CSD412_Group5/GroupAssignment.csproj": {}
   },
   "projects": {
-    "/Users/kate/dev/CSD412_Group5/GroupAssignment/GroupAssignment.csproj": {
+    "/Users/kate/dev/CSD412_Group5/GroupAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kate/dev/CSD412_Group5/GroupAssignment/GroupAssignment.csproj",
+        "projectUniqueName": "/Users/kate/dev/CSD412_Group5/GroupAssignment.csproj",
         "projectName": "GroupAssignment",
-        "projectPath": "/Users/kate/dev/CSD412_Group5/GroupAssignment/GroupAssignment.csproj",
+        "projectPath": "/Users/kate/dev/CSD412_Group5/GroupAssignment.csproj",
         "packagesPath": "/Users/kate/.nuget/packages/",
-        "outputPath": "/Users/kate/dev/CSD412_Group5/GroupAssignment/obj/",
+        "outputPath": "/Users/kate/dev/CSD412_Group5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kate/.nuget/NuGet/NuGet.Config"

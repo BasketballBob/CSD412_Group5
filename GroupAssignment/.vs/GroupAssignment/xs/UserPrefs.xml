@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{B48B84B9-E4F1-4B10-A2B5-3F809A49A75C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UserPagesController.cs">
+    <Files>
+      <File FileName="Controllers/UserPagesController.cs" Line="22" Column="30" />
+      <File FileName="Views/UserPages/Index.cshtml" Line="16" Column="4" />
+      <File FileName="Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="48" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GroupAssignment" expanded="True">
+            <Node name="GroupAssignment" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="ContentService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="UserPages" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GroupAssignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

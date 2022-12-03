@@ -8,7 +8,7 @@ namespace GroupAssignment.Service
     {
         public List<Page> GetUserPages(Guid userId)
         {
-            return new System.Collections.Generic.List<Page>()
+            return new List<Page>()
             {
                 new Page()
                 {

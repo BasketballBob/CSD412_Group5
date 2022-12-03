@@ -13,24 +13,52 @@ namespace GroupAssignment.Controllers
     public class UserPagesController : Controller
     {
 
-        private IContentService _contentService;
+        //private IContentService _contentService;
 
         private readonly ILogger<HomeController> _logger;
 
-        public UserPagesController(IContentService contentService, ILogger<HomeController> logger)
+        public UserPagesController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _contentService = contentService;
+            //_contentService = contentService;
         }
 
         public IActionResult Index()
         {
-            foreach (Page p in _contentService.GetUserPages(Guid.Empty))
-            {
-                Console.WriteLine(p.Title);
-            }
             return View(new UserPagesViewModel() {
-                Pages = _contentService.GetUserPages(Guid.Empty)
+                Pages = new List<Page>()
+            {
+                new Page()
+                {
+                    Title = "Page 1",
+                    PageContent = new System.Collections.Generic.List<Content>()
+                    {
+                        new TextContent()
+                        {
+                            Text = "Page1 Header"
+                        },
+                        new TextContent()
+                        {
+                            Text = "Page Content"
+                        },
+                    }
+                },
+                new Page()
+                {
+                    Title = "Page 2",
+                    PageContent = new System.Collections.Generic.List<Content>()
+                    {
+                        new TextContent()
+                        {
+                            Text = "Page2 Header"
+                        },
+                        new TextContent()
+                        {
+                            Text = "Page Content"
+                        },
+                    }
+                }
+            }
             });
         }
     }

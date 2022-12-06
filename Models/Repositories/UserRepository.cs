@@ -36,10 +36,12 @@ namespace GroupAssignment.Models.Repositories
             return userChanges;
         }
 
-        public void DeleteUser(User userToDelete)
+        public User DeleteUser(User userToDelete)
         {
             context.Users.Remove(userToDelete);
             context.SaveChanges();
+
+            return userToDelete;
         }
     }
 }

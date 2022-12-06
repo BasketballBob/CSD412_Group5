@@ -10,6 +10,6 @@ namespace GroupAssignment.Models.Repositories
         User AddUser(User user);
         User GetUser(Guid Id);
         User UpdateUser(User userChanges);
-        void DeleteUser(User user);
+        User DeleteUser(User user);
     }
 }

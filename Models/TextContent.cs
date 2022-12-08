@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace GroupAssignment.Models
+namespace CSD412_Group_Assignment.Models
 {
-    public class TextContent: Content
+    public class TextContent : Content
     {
         public string Text { get; set; }
 
@@ -12,4 +15,3 @@ namespace GroupAssignment.Models
         }
     }
 }
-

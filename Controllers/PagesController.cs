@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GroupAssignment.Models;
 
-namespace CSD412_Group_Assignment.Controllers
+namespace GroupAssignment.Controllers
 {
     public class PagesController : Controller
     {

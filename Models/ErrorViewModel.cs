@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace CSD412_Group_Assignment.Models
+namespace GroupAssignment.Models
 {
     public class ErrorViewModel
     {
@@ -9,3 +9,4 @@ namespace CSD412_Group_Assignment.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+

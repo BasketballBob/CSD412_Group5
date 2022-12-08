@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CSD412_Group_Assignment.Models;
 using Microsoft.Extensions.Logging;
+using GroupAssignment.Models;
 
-namespace CSD412_Group_Assignment.Controllers
+namespace GroupAssignment.Controllers
 {
     public class HomeController : Controller
     {
@@ -35,3 +35,4 @@ namespace CSD412_Group_Assignment.Controllers
         }
     }
 }
+

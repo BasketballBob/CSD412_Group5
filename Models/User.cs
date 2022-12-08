@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace CSD412_Group_Assignment.Models
+namespace GroupAssignment.Models
 {
     public class User
     {
@@ -12,3 +9,4 @@ namespace CSD412_Group_Assignment.Models
         public string Password { get; set; }
     }
 }
+

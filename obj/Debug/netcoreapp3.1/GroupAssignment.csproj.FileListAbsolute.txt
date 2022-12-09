@@ -249,7 +249,8 @@ D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\View
 D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Pages\Edit.cshtml.g.cs
 D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Pages\Index.cshtml.g.cs
 D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\UserPages\Create.cshtml.g.cs
-D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\UserPages\Delete.cshtml.g.cs
-D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\UserPages\Details.cshtml.g.cs
-D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\UserPages\Edit.cshtml.g.cs
+D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Users\Create.cshtml.g.cs
+D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Users\Delete.cshtml.g.cs
+D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
+D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
+D:\Users\JJWes\Documents\GitHub\CSD412_Group5\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs

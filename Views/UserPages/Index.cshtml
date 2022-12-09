@@ -1,41 +1,25 @@
-﻿@model IEnumerable<GroupAssignment.Models.User>
-
+﻿@model UserPagesViewModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "User Pages";
 }
 
-<h2>Index</h2>
+<div class="text-center">
+    <h1 class="display-4">User Pages</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Password)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Password)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+</div>
+
+
+<ul>
+    @for (int i = 0; i < Model.Pages.Count; i++)
+    {
+        <li>
+            Title: @Model.Pages[i].Title
+            <br/>
+            @for (int j = 0; j < Model.Pages[i].PageContent.Count; j++)
+            {
+               <nobr>Content @j.ToString():</nobr> @Model.Pages[i].PageContent[j].ToHtml()
+               <br/>
+            }
+        </li>
+     }
+</ul>

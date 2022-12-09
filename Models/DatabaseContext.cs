@@ -15,5 +15,7 @@ namespace GroupAssignment.Models
         }
 
         public DbSet<User> Users { get; set; } 
+        public DbSet<Page> Pages { get; set; }
+        public DbSet<TextContent> TextContents { get; set; }
     }
 }

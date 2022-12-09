@@ -13,7 +13,7 @@ namespace GroupAssignment.Service
                 new Page()
                 {
                     Title = "Page 1",
-                    PageContent = new System.Collections.Generic.List<Content>()
+                    PageContent = new System.Collections.Generic.List<TextContent>()
                     {
                         new TextContent()
                         {
@@ -28,7 +28,7 @@ namespace GroupAssignment.Service
                 new Page()
                 {
                     Title = "Page 2",
-                    PageContent = new System.Collections.Generic.List<Content>()
+                    PageContent = new System.Collections.Generic.List<TextContent>()
                     {
                         new TextContent()
                         {

@@ -11,7 +11,7 @@ namespace GroupAssignment.Controllers
 {
     public class PagesController : Controller
     {
-        /*private readonly DatabaseContext _context;
+        private readonly DatabaseContext _context;
 
         public PagesController(DatabaseContext context)
         {
@@ -148,6 +148,6 @@ namespace GroupAssignment.Controllers
         private bool PageExists(Guid id)
         {
             return _context.Pages.Any(e => e.Id == id);
-        }*/
+        }
     }
 }

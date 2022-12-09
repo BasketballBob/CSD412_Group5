@@ -8,7 +8,7 @@ namespace GroupAssignment.Models
         public Guid Id { get; set; }
         public User Owner;
         public string Title;
-        public List<Content> PageContent { get; set; }
+        public List<TextContent> PageContent { get; set; }
     }
 }
 
